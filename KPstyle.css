@@ -1,0 +1,71 @@
+html {
+  background-image: url(http://i.imgur.com/fPvld4W.png);
+  }
+body {
+     background-color: white;
+     font-family: Garamond, serif;
+     margin-left: 175px;
+     margin-right: 175px;
+}
+
+.title-area{
+  color: gray;
+  justify-content: space-around;
+  font-style: italic;
+  padding-left: 20px;
+}
+
+.title-area a{
+  text-decoration: none;
+}
+
+.featuredcontent {
+    text-align: center;
+    display: flex;
+    flex-flow: row;
+}
+
+.mainnav {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  padding: 10px;
+  color: gray;
+}
+
+.mainnav a {
+  color: gray;
+}
+
+.mainnav a:link {
+  text-decoration: none;
+}
+
+.mainnav a:visited {
+  text-decoration: line-through;
+  font-style: italic;
+  color: light-gray;
+}
+
+.mainnav a:hover {
+  text-decoration: underline;
+  color: #ea617b;
+  font-style: italic;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+h2{
+  color: gray;
+  font-style: italic;
+  text-align: center;
+}
+
+li{
+  list-style-type: none;
+  font-size: 10px;
+  color: gray;
+  text-align: right;
+}
